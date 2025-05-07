@@ -85,7 +85,6 @@ function getage(bday){
        <div className="person-container flex flex-col gap-3">
 
         {people.map((p,index)=>(
-            
             <div className="person-details flex gap-6 items-center" key={index}>
         <div className="image w-20  h-20">
         <Image image={p.image} onChange={(e) => handleImageChange(e, index) }id={index}/>    
